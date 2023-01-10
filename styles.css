@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background-color: #f5edce;
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 5rem;
+  font-weight: lighter;
+  color: #89c4e1;
+  text-shadow: #58287f 2px 2px;
+}
+
+.piano {
+  background-color: #58287f;
+  height: 300px;
+  padding: 90px 30px 0px 30px;
+  border-radius: 30px;
+}
+
+.keys {
+  position: relative;
+}
+
+.white-keys {
+  display: flex;
+}
+
+.white-oneKey {
+  width: 68px;
+  background-color: #fff;
+  height: 280px;
+  border-radius: 0 0 5px 5px;
+  border: solid #000 2px;
+  box-sizing: border-box;
+}
+
+.white-oneKey p {
+  padding-top: 230px;
+  font-family: "Merriweather Sans", sans-serif;
+  text-transform: capitalize;
+}
+
+.black-keys {
+  display: flex;
+}
+
+.black-oneKey {
+  background-color: #000;
+  width: 38px;
+  height: 180px;
+  border-radius: 0 0 5px 5px;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.black-oneKey p {
+  color: #fff;
+  padding-top: 140px;
+  font-size: 0.8rem;
+  font-family: "Merriweather Sans", sans-serif;
+  text-transform: capitalize;
+}
+
+.black-oneKey:nth-child(1) {
+  left: 48px;
+}
+
+.black-oneKey:nth-child(2) {
+  left: 115px;
+}
+
+.black-oneKey:nth-child(3) {
+  left: 182px;
+}
+
+.black-oneKey:nth-child(4) {
+  left: 253px;
+}
+
+.black-oneKey:nth-child(5) {
+  left: 320px;
+}
+
+.black-oneKey:nth-child(6) {
+  left: 387px;
+}
+
+.black-oneKey:nth-child(7) {
+  left: 454px;
+}
+
+.key_down {
+  height: 65%;
+  background-color: #89c4e1;
+}
